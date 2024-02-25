@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h2 class="box"> <%= whatday %> </h2>
+      <div class="flexcontainer">
+
+
+<div class="">
+
+  <%for(var i=0;i<newlistitems.length;i++){%>
+
+    <div class="box todolst" >
+      <input type="checkbox" class="check"></input><p><%= newlistitems[i]%></p></div>
+  <%}%>
+</div>
+
+
+          <form class="box " action="/" method="post">
+              <input type="text" name="todo" placeholder="New Item" autocomplete="disabled">
+
+              <button type="submit" name="button" class="submit">+</button>
+          </form>
+
+
+
+
+      </div>
+
+      <footer>With love by Praveen Ram</footer>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+html{
+    background: linear-gradient(to bottom ,#e66465, #9198e5);
+    background-attachment: fixed;
+    font-family: "helvetica neue";
+}
+
+
+ul{
+  list-style-type:upper-roman;
+}
+
+
+.flexcontainer{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin:  auto;
+
+
+}
+
+
+h2{
+  color: white;
+  font-family:fantasy;
+  font-weight: 500;
+  font-size: xxx-large;
+  margin: 10% auto 5% auto;
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+
+}
+
+.box{
+  max-width: 500px;
+  background-color: gray;
+  padding: 10px;
+
+}
+
+
+.todolst{
+  margin: 0px;
+  border-bottom: 1px solid black;
+
+  font-size: x-large;
+  font-weight: 300;
+  width: 480px;
+  text-align: start;
+}
+
+
+div:first-child{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+div form{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.submit{
+  border-radius: 50%;
+  width: 50px;
+  min-height:  50px;
+  border:none;
+  background-color: pink;
+  font-size: x-large;
+}
+
+
+footer{
+  margin: 10% auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 40px;
+  top: 10px;
+  border: none;
+   background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+  color: purple;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+
+.check{
+  width: 15px;
+  height: 15px;
+  margin: 7.5px 7.5px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input:checked+p{
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+
+p{
+  display: inline;
+}
+
+
+::placeholder{
+  color: white;
+  
+}
